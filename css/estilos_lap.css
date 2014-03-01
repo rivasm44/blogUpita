@@ -1,0 +1,75 @@
+#bienvenida {
+	background: url("../imagenes/fondo_presentacion.jpg");
+	background-repeat: no-repeat;
+	/*background-size:cover;  esta propiedad cubre todo elcontenido pero pixelea lasimagenes*/
+	background-attachment: fixed;
+	background-size:cover;
+	height: 500px;
+	line-height: 500px;
+	text-shadow: 0 0 3px blue;
+}
+.frase {
+	display: inline-block;
+	width: 30%;
+}
+#menu li, #derechos, #suscribirse {
+	display: inline-block;
+	font-size: 1.5em;
+}
+#derechos, #suscribirse {
+	width: 40%;
+}
+#suscribirse label {
+	width: 40%;
+}
+#redes_sociales img:hover {
+	transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+#redes_sociales img{
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+.frase img:hover{
+	transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);	
+}
+.frase img{
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+header{
+	position: fixed;
+	top:0;
+	right: 0;
+	width: 100%;
+}
+#vacio{
+	height: 100px;
+}
+#redes_sociales{
+	position: fixed;
+	bottom: 1.5em;
+	right: 0.5em;
+	background-color:#FFFF00;
+	padding: 0.5em;
+	opacity: 0.7;
+	border-radius: 5px 7px 5px 7px;
+	-webkit-border-radius: 5px 7px 5px 7px;
+	-o-border-radius: 5px 7px 5px 7px;
+	-moz-border-radius: 5px 7px 5px 7px;
+	-ms-border-radius: 5px 7px 5px 7px;
+	box-shadow: 0px 5px 30px 0px #fff;
+}

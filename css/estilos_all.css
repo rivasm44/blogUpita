@@ -1,0 +1,44 @@
+body {
+				font-size: 100%;
+				font-family: 'Mystery Quest', cursive;
+				/*un em es igual a 20px*/
+			}
+			/*selector de etiqueta*/
+			header, footer {
+				color: white;
+				background-color: #34302d;
+				padding: 0.5em;
+			}
+			footer {
+				padding-bottom: 6em;
+			}
+			/*selector de id*/
+			#frases {
+				background-color: green;
+				color: white;
+			}
+			#bienvenida {
+				color: white;
+				font-size: 2em;
+				text-align: center;
+				
+			}
+			/*selector de clase*/
+			.frase {
+				text-align: center;
+				margin: .5em;
+				padding-top: .5em;
+			}
+			.frase p {
+				font-size: 1.5em;
+			}
+			/*selector de descendientes*/
+			#menu li, #derechos, #suscribirse {
+				margin: 0.7em;
+			}
+			#email {
+				width: 90%;
+			}
+			video {
+				max-width: 100%;
+			}

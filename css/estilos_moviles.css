@@ -1,0 +1,25 @@
+#bienvenida {
+	background-color: black;
+}
+.frase {
+	width: 80%;
+	margin: 0;
+	padding: 0.5em;
+}
+menu li, #derechos, #suscribirse {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+}
+#derechos {
+	width: 80%;
+	text-align: center;
+}
+#suscribirse {
+	width: 80%;
+	text-align: center;
+}
+#suscribirse label {
+	font-size:1.3em;
+	width: 70%;
+}

@@ -87,12 +87,9 @@
 				</div>
 			</div>
 			<div id="suscribirse">
-			  <form action="/contacoSuscrito" method="post">
-				<label for="email">Contacto:</label>
-				<input id="nombre" type="text" name="nombre"/>
-				<input id="email" type="email" name="email"/>
-				<input id="web" type="url" name="web"/>
-				<input id="edad" type="text" name="edad"/>
+			  <form action="/suscribete" method="post">
+				<label for="email">Suscríbete:</label>
+				<input id="email" type="text" name="email"/>
 				<input value="enviar" type="submit"/>
 			  </form>
 			</div>

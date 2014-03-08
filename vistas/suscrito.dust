@@ -41,38 +41,8 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="bienvenida">
-			Programar con corazón
-			<!-- seccion de bienvenida -->
-		</section>
-		<section id="frases">
-			<!-- seccion de frases -->
-			<div class="frase">
-				<img src="imagenes/chela.png"/>
-				<p>
-					Imaginar
-				</p>
-			</div>
-			<div class="frase">
-				<img src="imagenes/lambda.png" />
-				<p>
-					Pensar
-				</p>
-			</div>
-			<div class="frase">
-				<img src="imagenes/python.png" />
-				<p>
-					Crear
-				</p>
-			</div>
-		</section>
 		<section>
-			<!-- seccion video -->
-			<video controls="true" poster="imagenes/logo-chrome.jpg">
-				<source src="videos/chrome_japan.webm" type="video/webm"/>
-				<source src="videos/chrome_japan.mp4" type="video/mp4"/>
-				<source src="videos/chrome_japan.ogv" type="video/ogg"/>
-			</video>
+			<h3>Te has suscrito correctamente con el email {email}</h3>
 		</section>
 		<footer>
 			<div id="derechos">
@@ -85,16 +55,6 @@
 					<img src="imagenes/googleplus.png"/>
 					<img src="imagenes/youtube.png"/>
 				</div>
-			</div>
-			<div id="suscribirse">
-			  <form action="/contacoSuscrito" method="post">
-				<label for="email">Contacto:</label>
-				<input id="nombre" type="text" name="nombre"/>
-				<input id="email" type="email" name="email"/>
-				<input id="web" type="url" name="web"/>
-				<input id="edad" type="text" name="edad"/>
-				<input value="enviar" type="submit"/>
-			  </form>
 			</div>
 		</footer>
 	</body>

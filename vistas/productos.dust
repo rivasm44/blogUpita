@@ -1,0 +1,95 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <script src="javascript/jquery1_10.js"></script>
+        <script src="javascript/galeria.js"></script>
+        <style>
+			#galeria{
+			    margin: 3em;
+			    padding: 2em;			
+			}
+			
+			#titulo-productos, #galeria, #menu-productos{
+			    text-align: center;
+			}
+			
+			#producto{
+			    display:inline-block;
+			    border-style: solid;
+                border-color: #008000;
+			}
+			.preview{
+			    width: 15%;
+			    margin: 0.5em;
+			}
+        </style>
+
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <div id="div-vacio"></div>
+        <!-- contenido de la página -->
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="productos">Productos</a>
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        <a href="contacto">Contacto</a>
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="galeria">
+            <h2 id="titulo-productos">Conoce nuestros productos</h2>
+            <div id="producto">
+                <img id="imagen-normal" src="../imagenes/imagen1.jpg"/>
+            </div>
+            <div id="menu-productos">
+                <img class="preview" src="../imagenes/imagen1_preview.jpg" data-src-imagen="../imagenes/imagen1.jpg" />
+                <img class="preview" src="../imagenes/imagen2_preview.jpg" data-src-imagen="../imagenes/imagen2.jpg" />
+                <img class="preview" src="../imagenes/imagen3_preview.jpg" data-src-imagen="../imagenes/imagen3.jpg" />
+                <img class="preview" src="../imagenes/imagen4_preview.jpg" data-src-imagen="../imagenes/imagen4.jpg" />
+                <img class="preview" src="../imagenes/imagen5_preview.jpg" data-src-imagen="../imagenes/imagen5.jpg" />
+            </div>
+        </section>
+        <footer>
+            <div id="derechos">
+                <p>
+                    Mi página, derechos reservados
+                </p>
+                <div id="redes-sociales">
+                    <img src="imagenes/facebook.png" />
+                    <img src="imagenes/twitter.png"/>
+                    <img src="imagenes/googleplus.png"/>
+                    <img src="imagenes/youtube.png"/>
+                </div>
+            </div>
+            <div id="suscribirse">
+                <form action="/suscribirse" method="post">
+                    <label for="email">Suscríbete:</label>
+                    <input id="email" type="text" name="email"/>
+                    <input value="enviar" type="submit">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

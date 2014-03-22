@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="javascript/jquery-1.10.2.min.js"></script>
+        <script src="javascript/jquery.gomap-1.3.2.min.js"></script>
+        <script src="javascript/geolocalizacion.js"></script>
+        <style>
+			#acerca {
+				margin: 3em;
+				padding: 2em;
+			}
+
+			#titulo-acerca, #acerca {
+				text-align: center;
+			}
+			header {
+				z-index: 10000;
+			}
+			#direccion {
+				display: inline-block;
+				width: 40%;
+				text-align: left;
+				margin: 1em;
+				padding: 1em;
+				vertical-align: top;
+			}
+			#mapa {
+				display: inline-block;
+				border-style: solid;
+				border-color: #008000;
+				display: inline-block;
+				width: 45%;
+				height: 400px;
+			}
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <div id="div-vacio"></div>
+        <!-- contenido de la página -->
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="productos">Productos</a>
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        <a href="contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="acerca">Acerca</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="acerca">
+            <h2 id="titulo-acerca">Visitanos</h2>
+            <div id="direccion">
+                <p>
+                    Dirección: Avenida Montevideo 363, Lindavista, Gustavo A. Madero, 07300 Gustavo A. Madero, DF
+                </p>
+                <p>
+                    Teléfono: 01 55 5119 5286
+                </p>
+                <p>
+                    Horario: 10:00 – 22:00
+                </p>
+            </div>
+            <div id="mapa">
+
+            </div>
+        </section>
+        <footer>
+            <div id="derechos">
+                <p>
+                    Mi página, derechos reservados
+                </p>
+                <div id="redes-sociales">
+                    <img src="imagenes/facebook.png" />
+                    <img src="imagenes/twitter.png"/>
+                    <img src="imagenes/googleplus.png"/>
+                    <img src="imagenes/youtube.png"/>
+                </div>
+            </div>
+            <div id="suscribirse">
+                <form action="/suscribirse" method="post">
+                    <label for="email">Suscríbete:</label>
+                    <input id="email" type="text" name="email"/>
+                    <input value="enviar" type="submit">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
